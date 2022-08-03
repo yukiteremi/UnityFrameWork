@@ -4,14 +4,13 @@ Unity框架，组件可插拔，可视化编辑，代码自动生成。
 包含资源加载，配置加载，数据加载，UI管理，音频管理,日志管理，动画系统，特效系统等，以及对应编辑器工具  
 支持Android、Ios、PC、WEBGL  
 项目中的Script/Core目录就是完整框  
-中文维基  
-English Wiki  
+[中文维基](https://github.com/GaoKaiHaHa/MyUnityFrameWork/wiki/%E9%A6%96%E9%A1%B5)  
 
 应用  
 　　1.快速配置开发模式和发布模式（开发模式资源直接从Resources文件夹加载，不需要重新打包）  
 　　2.支持快速定位到某一个游戏流程（某游戏场景，结算界面等），方便测试  
 　　3.开发模式支持运行时性能监控和Debug小窗。  
-　　4.提供Jenkins自动化打包接口ProjectBuildService (打包教程 )  　  
+　　4.提供Jenkins自动化打包接口ProjectBuildService ([打包教程](https://www.kisence.com/2017/06/01/shi-yong-jenkinsjin-xing-zi-dong-da-bao/))  　  
 
 游戏流程管理  
 　　1.游戏逻辑入口从某一个游戏流程开始（创建一个流程继承IGameStatus,然后在ApplicationManager中选择它作为第一个流程）  
@@ -90,7 +89,7 @@ UI系统
 　　　　·自动创建GuideWIndow预设  
 　　　　·自动创建GuideData数据表  
 　　　　·自动创建Guide sortingLayer层（新手引导高亮的UI会放在这个层）  
-　　　　·(自动增加 sortingLayer 的代码，请看(教程 )  
+　　　　·(自动增加 sortingLayer 的代码，请看([教程](https://www.kisence.com/2017/06/28/unitytian-jia-sorting-layerde-fang-fa-2/))  
 　　3.新手引导通过读取GuideData数据表提供功能  
 　
 
